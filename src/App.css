@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  padding: 0;
+  text-align: center;
+}
+.logo{
+  height: 80px;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: auto;
+}
+
+body {
+  background: #F3FBFE;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0 20px 40px 20px;
+  height: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 650px;
+  text-align: center;
+  font-size: 18px;
+  max-height: calc(100vh - 56px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #F3FBFE;
+  gap: 30px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  /*box-shadow: 10px 20px 20px -15px #4D84BD40;*/
+  box-shadow: inset 0 0 20px -5px #4D84BD40;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.swiper-slide img {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+p {
+  color: #0476BB;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 30px 0 30px 0;
+}
+h1{
+  color: #0E345B;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container-title-0002 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0;
+}
+
+.container-info-0005 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-start;
+  margin: 40px 20px 10px 20px;
+}
+
+
+h4{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+ul li {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.container-info-0006 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container-info-0007 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.container-title-0003 {
+  margin: 0 0 0 100px;
+}
+
+.container-title-0002 img {
+  height: 65px;
+}
+
+.mobile-block {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: calc(100vh - 56px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 18px;
+  padding: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 2px 2px 20px 0 #4D84BD40;
+
+}
+
+.mobile-block img {
+  display: block;
+  object-fit: cover;
+
+}
+
+.block-image{
+  width: 260px;
+}
+
+.ant-float-btn{
+  width: 50px;
+  height: 50px;
+}
+
+.ant-float-btn-primary .ant-float-btn-body{
+  background-color: #0476BB;
+}
+
+@media (max-width: 768px) {
+  .container-title-0002 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+  }
+
+  .container-info-0005 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  h4{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  ul li {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+  .container-info-0006 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+
+  .container-info-0007 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 335px;
+    margin: -10px 0;
+  }
+
+
+  .container-title-0002 img {
+    height: 35px;
+  }
+
+  .container-title-0003 {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+}
